@@ -1,0 +1,624 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;500;600;700;800&family=Raleway:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+font-family: 'Oxanium', cursive;
+font-family: 'Raleway', sans-serif;
+.container{
+    max-width: 1320px;
+}
+#navbar{
+    background-color: #FFFCF7;
+}
+.contract{
+ padding: 12px 20px;
+ text-decoration: none;
+ display: inline-block;
+background-color: rgba(255, 228, 217, 1);
+border-radius: 5px;
+   color: rgba(249, 92, 25, 1);
+   font-family: 'Oxanium', cursive;
+border: 1px solid transparent;
+    
+}
+.contract:hover{
+    border: 1px solid rgba(249, 92, 25, 1);
+    background-color: white;
+    transition: .4s;
+}
+.nav_list{
+    margin-right: 25px;
+    color: #817382;
+font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.active_orange{
+    color: #F95C19;
+}
+.nav_list:hover{
+    color: #F95C19;
+    transition: .4s;
+}
+.search{
+   padding: 16px;
+    background-color: rgba(255, 237, 201, 1);
+    border-radius: 5px;
+    margin-right: 12px;
+}
+
+/* ==============banner start============ */
+#banner{
+    background-color: #FFF6E5;
+}
+
+.left_section{
+    margin-top: 260px;
+}
+.left_section p{
+    width: 330px;
+    height: 56px;
+    color: #4D4D4D;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%;
+margin-top: 16px;
+}
+
+button{
+    padding: 15px 20px;
+    border-radius: 10px;
+    background-color: #F95C19;
+    color: white;
+    border: none;
+    font-size: 20;
+    font-weight: 700;
+    font-family: 'Oxanium', cursive;
+    border: 1px solid transparent;
+    outline: none;
+   
+
+}
+button:hover{
+    transition: .4s;
+    color: #F95C19;
+    border: 1px solid #F95C19;
+    background-color: white;
+}
+.left_section a {
+    text-decoration: none;
+   color: white;
+font-size: 20px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+
+}
+.right_side{
+    margin-top: 170px;
+}
+/* ==================banner end=============== */
+/* ==================service end=============== */
+#services{
+    background-color: #FFF6E5;
+}
+.title{
+    text-align: center;
+    padding-top: 168px;
+}
+.title h4{
+    color: var(--theme-colors-danger, #F95C19);
+font-family: Oxanium;
+font-size: 31.25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.title h5{
+    color: var(--gray-1100, #11111D);
+text-align: center;
+font-family: Raleway;
+font-size: 39.06px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.services_card{
+    width: 424px;
+    height: 583px;
+    background-color: #ffffff;
+    margin-top: 86px;
+    border-radius: 8px;
+}
+.services_card:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: .2s;
+
+}
+.services_card .icon_svg{
+   margin-left: 50%;
+   transform: translateX(-50%);
+   margin-top: 67px;
+}
+.services_card h6{
+    text-align: center;
+    margin-top: 29px;
+    font-size: 25px;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+
+}
+.services_card p{
+    width: 301px;
+    height: 81px;
+    color: var(--gray-600, #7B7A8B);
+    margin-top: 32px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 145%; /* 23.2px */
+}
+.learn_more{
+    text-decoration: none;
+    font-family: 'Oxanium', cursive;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 12px 96px;
+    background: #ffffff;
+    border: 1px solid rgba(249, 92, 25, 1);
+    border-radius: 5px;
+    color: #F95C19;
+    text-align: center;
+
+}
+.learn_more:hover{
+    color: white;
+    background-color: #F95C19;
+    transition: .5s;
+
+}
+.learn_more_button{
+   text-align: center;
+   margin-top: 55px;
+}
+.services_card ul {
+    color: var(--gray-600, #7B7A8B);
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; 
+margin-top: 9px;
+margin-left: 48px;
+}
+.services_card ul li{
+    margin-top:20px;
+}
+/* ==================services end=============== */
+/* ==================fact counter start=============== */
+#fact_counter{
+    background-color: #FFF6E5;
+}
+.flex_box{
+    text-align: center;
+}
+.flex_box h1{
+    color: var(--theme-colors-danger, #F95C19);
+font-variant-numeric: lining-nums proportional-nums;
+font-family: Raleway;
+font-size: 39px;
+font-style: normal;
+font-weight: 800;
+line-height: 110%; /* 42.9px */
+}
+.flex_box p{
+    color: var(--gray-800, #464558);
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+font-weight: 700;
+line-height: 120%; /* 24px */
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 170px 0;
+}
+/* ==================fact counter end=============== */
+/* ==================video section start=============== */
+#video{
+    background-color: #FFF6E5;
+}
+.video_section{
+    position: relative;
+
+}
+.video_img{
+    height: 580px;
+    width: 100%;
+    border-radius: 20px;
+  
+}
+.overley{
+    background-color: rgba(10, 9, 13, 0.8);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 20px;
+}
+.text_section{
+    text-align: center;
+    width: 673px;
+    margin: 0 auto;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+.play_video{
+    height: 40px;
+    width: 40px;
+    padding: 22px;
+    background-color: #F95C19;
+    border-radius: 50%;
+    color: white;
+}
+.text_section h4{
+    color: var(--theme-colors-danger, #F95C19);
+text-align: center;
+font-family: Oxanium;
+font-size: 31.25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 19px;
+}
+.text_section p{
+    color: var(--theme-colors-white, #FFF);
+text-align: center;
+font-family: 'Raleway', sans-serif;
+font-size: 25px;
+font-weight: 400;
+line-height: 120%; /* 30px */
+margin-top: 28px;
+
+
+}
+/* ==================video section end=============== */
+/* ==================TESTIMONIAL start=============== */
+#testimonial{
+    padding-top: 176px;
+    background-color: #FFF6E5;
+}
+.testimonial_flex{
+    display: flex;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.text_clint{
+    margin-top: 30px;
+    text-align: center;
+}
+h4{
+    color: #F95C19;
+font-family: Oxanium;
+font-size: 31.25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+h3{
+    color: var(--gray-1100, #11111D);
+font-variant-numeric: lining-nums proportional-nums;
+font-family: Raleway;
+font-size: 39px;
+font-style: normal;
+font-weight: 800;
+line-height: 110%; /* 42.9px */
+}
+.fantastic_service{
+    padding: 40px;
+    width: 872px;
+    /* height: 304px; */
+    background-color: white;
+    border-radius: 16px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 88px;
+}
+.fantastic_service h5{
+    color: var(--theme-colors-danger, #F95C19);
+font-family: Raleway;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 30px */
+}
+.fantastic_service p{
+    color: var(--gray-800, #464558);
+font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 145%; /* 23.2px */
+width: 800px;
+}
+/* .flex_icons{
+    display: flex;
+    justify-content: space-between;
+} */
+.fantastic_service ul{
+    color: #F95C19;
+    padding: 0;
+}
+.avater_section p{
+    color: var(--gray-1000, #222132);
+text-align: right;
+font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 19.2px */
+}
+.avater_section{
+    display: flex;
+    justify-content: end;
+ 
+}
+.avater_section h6{
+    color: var(--gray-800, #464558);
+    text-align: right;
+font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%;
+}
+.avater_section img{
+    height: 100%;
+    margin-left: 20px;
+}
+/* ==================TESTIMONIAL end=============== */
+/* ==================contact section start=============== */
+#contract_section{
+    background-color: #FFF6E5;
+    padding-top: 266px;
+}
+.left_side h6{
+    color: #F95C19;
+font-family: Oxanium;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 13px;
+}
+.left_side h3{
+    color: var(--gray-1000, #222132);
+font-variant-numeric: lining-nums proportional-nums;
+font-family: Raleway;
+font-size: 39px;
+font-style: normal;
+font-weight: 800;
+line-height: 110%; /* 42.9px */
+margin-top: 20px;
+
+}
+.left_side p{
+    color: var(--gray-500, #9291A1);
+font-family: Raleway;
+font-size: 25px;
+font-style: normal;
+font-weight: 600;
+line-height: 120%; /* 30px */
+margin-top: 9px;
+
+}
+.form_right {
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: column;
+}
+input{
+    border-radius: 5px;
+border: 1px solid #C5C5D2;
+background: #FFF3DF;
+height: 50px;
+margin-top: 20px;
+padding: 20px;
+
+}
+textarea{
+    border-radius: 5px;
+    border: 1px solid #C5C5D2;
+    background: #FFF3DF;
+    height: 154px;margin-top: 20px;
+    margin-bottom: 66px;
+    padding: 20px;
+
+}
+.placeholder{
+    padding: 22px;
+}
+/* =================contract section end=============== */
+/* =================map section start=============== */
+#map{
+    background-color: #FFF6E5;
+    
+}
+.my_location_map{
+    width: 100%;
+    height: 430px;
+}
+.map_contract{
+    margin-top: 85px;
+}
+.contract_right_section{
+    padding: 88px;   
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 12px;
+
+}
+#map h6{
+    color: var(--gray-800, #464558);
+
+/* Heading 5/H5 bold */
+font-family: Raleway;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 24px */
+
+
+}
+.contract_info{
+    color: var(--gray-700, #5C5B6C);
+
+/* Heading 6/H6 */
+font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 19.2px */
+line-height: 40px;
+}
+.contract_info .location{
+    margin-right: 15px;
+    color: #F95C19;
+}
+.social_icons a {
+    /* margin: 20px; */
+   
+}
+.social_icons .fb_ins_twitter{
+    color: #F95C19;
+    width: 30px;
+    height: 30px;
+}
+.btn{
+   margin-left: 50%;
+   transform: translateX(-50%);
+   padding-bottom: 183px;
+   margin-top: 30px;
+}
+.call{
+    margin-right: 15px;
+}
+.btn_call{
+    width: 450px;
+}
+/* =================map section end=============== */
+/* =================update start=============== */
+#update{
+    background: #222132;
+}
+.update_text{
+    padding: 84px 0;
+}
+#update h2{
+    color: var(--theme-colors-white, #FFF);
+font-variant-numeric: lining-nums proportional-nums;
+font-family: Raleway;
+font-size: 39px;
+font-style: normal;
+font-weight: 800;
+line-height: 110%; /* 42.9px */
+}
+#update p{
+    color: var(--gray-300, #C5C5D2);
+font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+width: 500px;
+height: 50px;
+line-height: 145%; /* 23.2px */
+}
+.update_text h6{
+    color: var(--theme-colors-danger, #F95C19);
+font-family: Oxanium;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.ph_number{
+    width: 386px;
+}
+/* =================update section end=============== */
+/* =================customer care section start=============== */
+#customer_section{
+  background-color: rgba(47, 46, 65, 1);
+}
+#customer_section p{
+    color: var(--gray-500, #9291A1);
+font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 22px; /* 137.5% */
+width: 190px;
+height: 44px;
+margin-top: 18px;
+}
+.customer_left{
+    padding: 74px 0;
+}
+.customer_right h5{
+    color: var(--theme-colors-white, #FFF);
+font-family: Oxanium;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+margin-left: 32px;
+}
+.customer_right ul li{
+    list-style: none;
+    color: var(--gray-500, #9291A1);
+font-family: Raleway;
+font-size: 16px;
+font-weight: 600;
+line-height: 32px; /* 137.5% */
+}
+.customer_right{
+    margin-top: 70px;
+}
+/* =================customer section end=============== */
+/* =================footer section start=============== */
+#bottom_section{
+    background: var(--gray-1000, #222132);
+
+}
+.bottom{
+    display: flex;
+width: 1920px;
+height: 76px;
+justify-content: center;
+align-items: center;
+gap: 865px;
+flex-shrink: 0;
+}
+.bottom_padding{
+    padding: 22px 0;
+    color: var(--gray-200, #DBDBE9);
+    font-family: Raleway;
+    font-size: 13px;
+    font-weight: 500;
+}
+span{
+    color: #F95C19;
+}
+/* =================foote section end=============== */

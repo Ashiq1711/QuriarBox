@@ -1,0 +1,349 @@
+@media (min-width:320px) and (max-width:575px) {
+    .left_section {
+        margin-top: 30px;
+    }
+    .search {
+        padding: 0;
+       background-color: #FFFCF7;;
+        border-radius: 5px;
+        margin-right: 12px;
+    }
+    .contract {
+        padding: 5px 10px;
+    }
+    .left_section p {
+        width: auto;
+        font-size: 16px;
+       
+    }
+    .right_side {
+        margin-top: 60px;
+    }
+    .right_side img {
+        vertical-align: middle;
+        width: 100%;
+    }
+    .title {
+        text-align: center;
+        padding-top: 60px;
+    }
+    .services_card {
+        width: auto;
+        height: 420px;
+       
+    }
+    .services_card .icon_svg {
+       
+        margin-top: 16px;
+    }
+    .services_card h6 {
+         margin-top: 14px;
+  
+    }
+    .services_card p {
+        width: 100%;
+        height: 66px;      
+        margin-top: 20px;
+        margin-left: 50%;
+     
+       
+    }
+    .services_card ul {
+      margin-left: 0px;
+        font-size: 15px;  
+     
+    }
+    .learn_more {
+
+        font-size: 16px;
+    
+    }
+    .learn_more_button {
+        text-align: center;
+        margin-top: 12px;
+    }
+    .services_card {
+        
+        margin-top: 12px;
+        
+    }
+    .flex {
+        flex-direction: column;
+        padding: 18px 0;
+    }
+    .flex_box {
+       
+        margin: 30px;
+    }
+    .video_img {
+        height: 300px;
+        width: 100%;
+        border-radius: 20px;
+    }
+    .play_video {
+        height: 20px;
+        width: 20px;
+      
+    }
+    .text_section h4 {
+       
+        font-size: 22.25px;
+        
+    }
+    .text_section {
+     
+        width: 100%;
+      
+    }
+    .text_section p {
+
+        font-size: 14px;
+ 
+    }
+    #testimonial {
+        padding-top: 50px;
+        background-color: #FFF6E5;
+    }
+    .testimonial_flex {
+        display: flex;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        justify-content: center;
+    }
+    .text_clint {
+        margin-top: 30px;
+       text-align: left;
+    }
+    .testimonial_comma
+    {
+        width: 50px;
+        height: 50px;
+    }
+    .fantastic_service {
+        padding: 20px;
+        width: 100%;
+        margin-top: 20px;
+        border-radius: 16px;
+     
+    }
+    .fantastic_service p {
+        font-size: 16px; 
+        width: auto;
+    }
+
+    #contract_section {
+        padding-top: 50px;
+    }
+    .animate_img{
+        width: 100%;
+    }
+    .left_side h3 {
+        font-size: 24px;      
+    }
+    .left_side p {
+        font-size: 18px;
+    }
+    textarea {
+        margin-bottom: 20px;
+    }
+    .my_location_map {
+        width: 100%;
+        height: 200px;
+    }
+    .contract_right_section {
+        padding: 20px;
+ 
+    }
+    #map h6 {
+        text-align: center;
+        font-size: 16px;
+    }
+    .btn {
+        margin-left: 0;
+        transform: translateX(0);
+        padding-bottom: 0;
+        margin-top: 0;
+    }
+    .btn_call {
+        width: 100%;
+        margin: 20px 0;
+    }
+    button {
+        font-size: 13px;
+
+    }
+    .update_text {
+        padding: 24px 0;
+        margin-top: 16px;
+    }
+    #update h2 {
+        font-size: 22px;
+    }
+    #update p {
+        font-size: 14px;
+        width: auto;
+        height: 12px;
+    
+    }
+    .update_text h6 {
+        font-size: 15px;
+   
+    }
+    .ph_number {
+        width: auto;
+        margin-bottom: 18px;
+    }
+    input {
+        height: 40px;
+        margin-top: 12px;
+        padding: 12px;
+    }
+
+    .customer_left {
+        padding: 18px 0;
+        text-align: center;
+    }
+    #customer_section p {
+        font-size: 15px;
+        width: 100%;
+        height: 0px;
+        text-align: center;
+    }
+    .customer_right {
+        margin-top: 30px;
+    }
+    .customer_right ul li {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .bottom_padding {
+        padding: 6px 0;;
+        font-size: 13px;
+        text-align: center;
+    }
+}
+
+@media (min-width:576px) and (max-width:767px) {
+
+ .search {
+        padding: 0;
+       background-color: #FFFCF7;;
+        border-radius: 5px;
+        margin-right: 12px;
+    }
+    .navbar-collapse {
+        text-align: center;
+    }
+    .left_section {
+        margin-top: 18px;
+    }
+    .left_section p {
+        width: auto;
+
+    }
+    .right_side img {
+        vertical-align: middle;
+        width: 100%;
+    }
+    .right_side {
+        margin-top: 50px;
+    }
+    .title {
+        text-align: center;
+        padding-top: 70px;
+    }
+    .services_card .icon_svg {
+        margin-left: 50%;
+        transform: translateX(-50%);
+        margin-top: 15px;
+    }
+    .services_card {
+        width: 100%;
+        margin-top: 18px;
+        height: 500px;
+    }
+    .learn_more_button {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .services_card ul {
+        margin-left: 92px;
+    }
+    .flex {
+        display: flex;
+        padding: 30px 0;
+        flex-direction: column;
+    }
+    .flex_box {
+        text-align: center;
+        margin: 20px;
+    }
+    .video_img {
+        width: 100%;
+        height: 400px;
+    
+    }
+    .text_section {
+        width: 100%;
+
+    }
+    #testimonial {
+        padding-top: 100px;
+        background-color: #FFF6E5;
+    }
+    .testimonial_comma {
+        width: 100px;
+        height: 100px;
+    }
+    .testimonial_flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-content: center;
+    }
+    .fantastic_service {
+        width: 100%;
+        padding: 0;
+ 
+    }
+    .fantastic_service p {
+        font-size: 15px;
+        line-height: 145%;
+        width: 100%;
+    }
+    .btn {
+        padding-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    #contract_section {
+        padding-top: 100px;
+    }
+    .animate_img{    
+            width: 100%;
+    }
+    .left_side h3 {
+        font-size: 29px;
+
+    }
+    .update_text {
+        padding: 24px 0;
+    }
+    .customer_left {
+        padding: 30px 0;
+        text-align: center;
+    }
+    #customer_section p {
+        font-size: 20px;
+        width: auto;
+        margin-top: 18px;
+        text-align: center;
+    }
+    .customer_right {
+        margin-top: 10px;
+    }
+    .bottom_padding {
+        padding: 10px 0;
+        text-align: center;
+    }
+}
